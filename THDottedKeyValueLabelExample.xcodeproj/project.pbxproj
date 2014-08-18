@@ -21,6 +21,8 @@
 		9918744B19A204D0007F3739 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9918742D19A204D0007F3739 /* UIKit.framework */; };
 		9918745319A204D0007F3739 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9918745119A204D0007F3739 /* InfoPlist.strings */; };
 		9918745519A204D0007F3739 /* THDottedKeyValueLabelExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918745419A204D0007F3739 /* THDottedKeyValueLabelExampleTests.m */; };
+		9918746019A205C6007F3739 /* THDottedKeyValueLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918745F19A205C6007F3739 /* THDottedKeyValueLabel.m */; };
+		AD8E1FA1375C4C58B57CACA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7BC0444B1E4A5D95EDD176 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C7BC0444B1E4A5D95EDD176 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9532F770E3684B54B637A55F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		9918742619A204D0007F3739 /* THDottedKeyValueLabelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THDottedKeyValueLabelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9918742919A204D0007F3739 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9918742B19A204D0007F3739 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		9918745019A204D0007F3739 /* THDottedKeyValueLabelExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THDottedKeyValueLabelExampleTests-Info.plist"; sourceTree = "<group>"; };
 		9918745219A204D0007F3739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9918745419A204D0007F3739 /* THDottedKeyValueLabelExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THDottedKeyValueLabelExampleTests.m; sourceTree = "<group>"; };
+		9918745E19A205C6007F3739 /* THDottedKeyValueLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDottedKeyValueLabel.h; sourceTree = "<group>"; };
+		9918745F19A205C6007F3739 /* THDottedKeyValueLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDottedKeyValueLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				9918742C19A204D0007F3739 /* CoreGraphics.framework in Frameworks */,
 				9918742E19A204D0007F3739 /* UIKit.framework in Frameworks */,
 				9918742A19A204D0007F3739 /* Foundation.framework in Frameworks */,
+				AD8E1FA1375C4C58B57CACA2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 				9918744E19A204D0007F3739 /* THDottedKeyValueLabelExampleTests */,
 				9918742819A204D0007F3739 /* Frameworks */,
 				9918742719A204D0007F3739 /* Products */,
+				9532F770E3684B54B637A55F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,7 @@
 				9918742B19A204D0007F3739 /* CoreGraphics.framework */,
 				9918742D19A204D0007F3739 /* UIKit.framework */,
 				9918744819A204D0007F3739 /* XCTest.framework */,
+				5C7BC0444B1E4A5D95EDD176 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 				9918743F19A204D0007F3739 /* ViewController.m */,
 				9918744119A204D0007F3739 /* Images.xcassets */,
 				9918743019A204D0007F3739 /* Supporting Files */,
+				9918746119A205CD007F3739 /* THDottedKeyValueLabel */,
 			);
 			path = THDottedKeyValueLabelExample;
 			sourceTree = "<group>";
@@ -152,6 +162,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9918746119A205CD007F3739 /* THDottedKeyValueLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9918745E19A205C6007F3739 /* THDottedKeyValueLabel.h */,
+				9918745F19A205C6007F3739 /* THDottedKeyValueLabel.m */,
+			);
+			name = THDottedKeyValueLabel;
+			path = ../THDottedKeyValueLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9918745819A204D0007F3739 /* Build configuration list for PBXNativeTarget "THDottedKeyValueLabelExample" */;
 			buildPhases = (
+				2F3AC3927D214881BBBDA89B /* Check Pods Manifest.lock */,
 				9918742219A204D0007F3739 /* Sources */,
 				9918742319A204D0007F3739 /* Frameworks */,
 				9918742419A204D0007F3739 /* Resources */,
+				8A1098CD734848608FC2283F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,11 +266,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F3AC3927D214881BBBDA89B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1098CD734848608FC2283F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9918742219A204D0007F3739 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9918746019A205C6007F3739 /* THDottedKeyValueLabel.m in Sources */,
 				9918744019A204D0007F3739 /* ViewController.m in Sources */,
 				9918743A19A204D0007F3739 /* AppDelegate.m in Sources */,
 				9918743619A204D0007F3739 /* main.m in Sources */,
@@ -373,6 +429,7 @@
 		};
 		9918745919A204D0007F3739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9532F770E3684B54B637A55F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +443,7 @@
 		};
 		9918745A19A204D0007F3739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9532F770E3684B54B637A55F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +514,7 @@
 				9918745A19A204D0007F3739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9918745B19A204D0007F3739 /* Build configuration list for PBXNativeTarget "THDottedKeyValueLabelExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +523,7 @@
 				9918745D19A204D0007F3739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "THDottedKeyValueLabel.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet THDottedKeyValueLabel *sampleLabel1;
+@property (weak, nonatomic) IBOutlet THDottedKeyValueLabel *sampleLabel2;
+@property (weak, nonatomic) IBOutlet THDottedKeyValueLabel *sampleLabel3;
+@property (weak, nonatomic) IBOutlet THDottedKeyValueLabel *sampleLabel4;
 
 @end
