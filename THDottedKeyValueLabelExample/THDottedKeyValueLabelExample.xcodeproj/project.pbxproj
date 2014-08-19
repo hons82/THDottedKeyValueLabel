@@ -169,7 +169,7 @@
 				9918745F19A205C6007F3739 /* THDottedKeyValueLabel.m */,
 			);
 			name = THDottedKeyValueLabel;
-			path = ../THDottedKeyValueLabel;
+			path = ../../THDottedKeyValueLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

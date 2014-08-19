@@ -16,7 +16,15 @@ This Control can be used to simplify the layout when you need to show a List of 
 
 ### CocoaPods
 
-It's not finished yet, but I'll release it quite soon
+Install with [CocoaPods](http://cocoapods.org) by adding the following to your Podfile:
+
+``` ruby
+platform :ios, '6.1'
+pod 'THDottedKeyValueLabel', '~> 0.0.1'
+```
+
+**Note**: We follow http://semver.org for versioning the public API.
+
 
 ### Manually
 
@@ -24,8 +32,8 @@ Or copy the `THDottedKeyValueLabel/` directory from this repo into your project.
 
 ### Dependencies
 
-- [PureLayout](https://github.com/smileyborg/PureLayout) 
-- [MarqueeLabel](https://github.com/cbpowell/MarqueeLabel)
+* [PureLayout](https://github.com/smileyborg/PureLayout) 
+* [MarqueeLabel](https://github.com/cbpowell/MarqueeLabel)
 
 # Usage
 

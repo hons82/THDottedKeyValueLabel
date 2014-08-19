@@ -17,9 +17,6 @@
 #define kDefaultDottedColor     [UIColor colorWithRed:242.0/255.0 green:121.0/255.0 blue:53.0/255.0 alpha:1.0]
 #define kDottedTemplate     @"..............................................................................................................................................................................."
 
-// TEST
-#define MARQUEELABEL
-
 // System Definitions
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 
@@ -83,13 +80,9 @@
     [self addSubview:_dottedLabel];
     
     // Define DottedLabel
-#ifdef MARQUEELABEL
     _valueLabel = [MarqueeLabel new];
     [((MarqueeLabel *)_valueLabel) setRate:10.0];
     [((MarqueeLabel *)_valueLabel) setLabelize:YES];
-#else
-    _valueLabel = [UILabel new];
-#endif
     [_valueLabel setFont:[UIFont boldSystemFontOfSize:kDefaultFontSize]];
     [_valueLabel setTextColor:kDefaultColor];
     [self addSubview:_valueLabel];
@@ -119,9 +112,7 @@
 
 - (void)setValueMarqueeing:(BOOL)marqueeing
 {
-#ifdef MARQUEELABEL
     [((MarqueeLabel *)_valueLabel) setLabelize:!marqueeing];
-#endif
     [self.valueLabel setContentCompressionResistancePriority:marqueeing ? UILayoutPriorityDefaultHigh-1 : UILayoutPriorityDefaultHigh+1 forAxis:UILayoutConstraintAxisHorizontal];
 }
 

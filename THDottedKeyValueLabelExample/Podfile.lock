@@ -1,0 +1,13 @@
+PODS:
+  - MarqueeLabel (2.0.2)
+  - PureLayout (1.0.1)
+
+DEPENDENCIES:
+  - MarqueeLabel
+  - PureLayout
+
+SPEC CHECKSUMS:
+  MarqueeLabel: 8801fe3031e92c0faf77637ac45f389fc30f768e
+  PureLayout: 972964b21dbcbc5cc36785aed16aba03176f057d
+
+COCOAPODS: 0.33.1
