@@ -10,29 +10,29 @@
 	<string>THDottedKeyValueLabelExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>72955240-4BF6-4E3C-AFE0-2C9C44099981</key>
+		<key>8125F4D5D3EFF12D213E571683B199746EAFB055</key>
 		<string>https://github.com/hons82/THDottedKeyValueLabel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>THDottedKeyValueLabelExample/THDottedKeyValueLabelExample.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>72955240-4BF6-4E3C-AFE0-2C9C44099981</key>
+		<key>8125F4D5D3EFF12D213E571683B199746EAFB055</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/hons82/THDottedKeyValueLabel.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>72955240-4BF6-4E3C-AFE0-2C9C44099981</string>
+	<string>8125F4D5D3EFF12D213E571683B199746EAFB055</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>72955240-4BF6-4E3C-AFE0-2C9C44099981</string>
+			<string>8125F4D5D3EFF12D213E571683B199746EAFB055</string>
 			<key>IDESourceControlWCCName</key>
 			<string>THDottedKeyValueLabelExample</string>
 		</dict>

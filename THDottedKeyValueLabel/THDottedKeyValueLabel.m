@@ -102,6 +102,8 @@
     [self.valueLabel setContentCompressionResistancePriority:UILayoutPriorityDefaultHigh+1 forAxis:UILayoutConstraintAxisHorizontal];
     
     [self setValueMarqueeing:kDefaultMarqueeing];
+    [self updateConstraintsIfNeeded];
+    [self layoutIfNeeded];
 }
 
 - (void)setupLabelWithKey:(NSString *)keyString andValue:(NSString *)valueString
@@ -118,11 +120,11 @@
 
 - (void)layoutSubviews
 {
+    [self.valueLabel updateConstraintsIfNeeded];
+    [self.valueLabel layoutSubviews];
+    [self.keyLabel updateConstraintsIfNeeded];
+    [self.keyLabel layoutIfNeeded];
     [super layoutSubviews];
-    [self.valueLabel updateConstraints];
-    [self.valueLabel setNeedsLayout];
-    [self.keyLabel updateConstraints];
-    [self.keyLabel setNeedsLayout];
 }
 
 @end

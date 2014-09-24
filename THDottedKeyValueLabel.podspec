@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         	= "THDottedKeyValueLabel"
   s.version      	= "0.0.1"
-  s.summary      	= "UITextView with the look of a Notebook"
+  s.summary      	= "View that simplifies adding a list of key - value pairs"
   s.homepage     	= "https://github.com/hons82/THDottedKeyValueLabel"
   s.license      	= { :type => 'MIT', :file => 'LICENSE.md' }
   s.author       	= { "Hannes Tribus" => "hons82@gmail.com" }

@@ -29,6 +29,8 @@
     [self.sampleLabel4.valueLabel setFont:[UIFont boldSystemFontOfSize:32.0]];
     [self.sampleLabel4.valueLabel setTextColor:[UIColor blackColor]];
     [self.sampleLabel4 setNeedsLayout];
+    
+    [self.view setNeedsLayout];
 }
 
 - (void)didReceiveMemoryWarning
