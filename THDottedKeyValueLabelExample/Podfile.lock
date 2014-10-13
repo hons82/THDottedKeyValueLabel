@@ -1,5 +1,5 @@
 PODS:
-  - MarqueeLabel (2.0.5)
+  - MarqueeLabel (2.0.6)
   - PureLayout (1.1.0)
 
 DEPENDENCIES:
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - PureLayout
 
 SPEC CHECKSUMS:
-  MarqueeLabel: 9a9f90f431640b70f010e949ce228391f3af3c61
+  MarqueeLabel: b597f5c294a2adb3b5e5c9e3d09b682b03d53334
   PureLayout: c8960fa0f3b40d849d5e177d699d0148faa63b63
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.34.2

@@ -120,9 +120,9 @@
 
 - (void)layoutSubviews
 {
-    [self.valueLabel updateConstraintsIfNeeded];
+    [self.valueLabel updateConstraints];
     [self.valueLabel layoutSubviews];
-    [self.keyLabel updateConstraintsIfNeeded];
+    [self.keyLabel updateConstraints];
     [self.keyLabel layoutIfNeeded];
     [super layoutSubviews];
 }
